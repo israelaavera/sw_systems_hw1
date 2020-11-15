@@ -2,15 +2,15 @@
 #include <stdbool.h>
 #include "myMath.h"
 
-double first(const double x) {
+double first( double x) {
     return sub(add((float) Exponent((int) x), (float) power(x, 3)), 2);
 }
 
-double second(const double x) {
+double second( double x) {
     return add((float) mul(x, 3), (float) mul(power(x, 2), 2));
 }
 
-double third(const double x) {
+double third( double x) {
     return sub((float) div(mul(power(x, 3), 4), 5), (float) mul(x, 2));
 }
 

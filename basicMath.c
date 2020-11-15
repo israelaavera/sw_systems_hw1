@@ -1,17 +1,17 @@
 #include "myMath.h"
 
-float add(const float x, const float y) {
+float add( float x,  float y) {
     return x + y;
 }
 
-float sub(const float x, const float y) {
+float sub( float x,  float y) {
     return x - y;
 }
 
-double mul(const double x, const int y) {
+double mul( double x,  int y) {
     return y * x;
 }
 
-double div(const double x, const int y) {
+double div( double x,  int y) {
     return x / y;
 }
